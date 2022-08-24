@@ -4,6 +4,7 @@ import { Navigation } from './components/Navigation/Navigation.js';
 import { Home } from './components/Home/Home.js';
 import { Login } from './components/Login/Login.js';
 import { Register } from './components/Register/Register.js';
+import { Create } from './components/Create/Create.js';
 
 import "./styles/App.css";
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/create" element={<Create />} />
       </Routes>
     </div>
   );

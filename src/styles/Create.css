@@ -1,0 +1,69 @@
+.create-container {
+  width: 450px;
+  height: 480px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  border-color: purple;
+  margin: 20px auto;
+  box-shadow: 0 0 30px blue;
+}
+
+.create-page-image {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  margin: 20px 22%;
+  top: 10px;
+}
+.create-page-country {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  margin: 20px 22%;
+  top: 10px;
+}
+.create-page-city {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  margin: 20px 22%;
+  top: 10px;
+}
+.create-page-details {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  margin: 20px 22%;
+  top: 10px;
+}
+.post-picture {
+  position: relative;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 30px;
+  left: 30%;
+  top: 50px;
+  cursor: pointer;
+}
+
+/* Images */
+.photographer-drawing {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  bottom: 447px;
+  left: 50px;
+}
+.mountain-drawing {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: 450px;
+  left: 620px;
+}
