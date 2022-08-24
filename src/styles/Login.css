@@ -1,0 +1,61 @@
+.login-container {
+  width: 450px;
+  height: 480px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  border-color: purple;
+  margin: 20px auto;
+  box-shadow: 0 0 30px blue;
+}
+.username {
+  position: relative;
+  border-radius: 15px;
+  left: 24%;
+  height: 30px;
+  width: 230px;
+  top: 50px;
+}
+.password {
+  position: relative;
+  border-radius: 15px;
+  left: 24%;
+  height: 30px;
+  width: 230px;
+  bottom: 100px;
+}
+.login-submit-button {
+  position: relative;
+  border: none;
+  color: white;
+  left: 169px;
+  bottom: 270px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+/* Images  */
+.first-login-beautiful-picture {
+  position: relative;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  top: 270px;
+  left: 100px;
+}
+.second-login-beautiful-pic {
+  position: relative;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  bottom: 270px;
+  right: 100px;
+}
+.third-login-beautiful-pic {
+  position: relative;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  right: 70%;
+  top: 50px;
+}
