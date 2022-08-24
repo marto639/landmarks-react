@@ -1421,16 +1421,16 @@
 
   var rules = initPlugin$3;
 
-  var identity = "email";
+  var identity = "username";
   var protectedData = {
     users: {
       "35c62d76-8152-4626-8712-eeb96381bea8": {
-        email: "peter@abv.bg",
+        username: "peter",
         hashedPassword:
           "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1",
       },
       "847ec027-f659-4086-8032-5173e2f9c93a": {
-        email: "john@abv.bg",
+        username: "john",
         hashedPassword:
           "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1",
       },
@@ -1441,67 +1441,28 @@
     photos: {
       "1840a313-225c-416a-817a-9954d4609f7c": {
         _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+        user: "Peter",
         imageUrl: "https://media.worldnomads.com/Explore/middle-east/hagia-sophia-church-istanbul-turkey-gettyimages-skaman306.jpg",
-        Country: "Turkey",
-        City: "Istanbul",
+        country: "Turkey",
+        city: "Istanbul",
         _createdOn: 1617194210928,
       },
       "126777f5-3277-42ad-b874-76d043b069cb": {
         _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://upload.travelawaits.com/ta/uploads/2021/04/sofia-bulgariaa12542-800x800.jpg",
-        Country: "Bulgaria",
-        City: "Sofia",
+        user: "Peter",
+        imageUrl: "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/sofia-1.jpg",
+        country: "Bulgaria",
+        city: "Sofia",
         _createdOn: 1617194210928,
       },
       "136777f5-3277-42ad-b874-76d043b069cb": {
         _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://www.travelandleisure.com/thmb/l4gMoI0BOszC3BZx2q1LYr3N3rE=/1600x1200/smart/filters:no_upscale()/madrid-spain-MADRIDTG0621-b2347a98186a4281a0874992b213ade0.jpg",
-        Country: "Spain",
-        City: "Madrid",
+        user: "Peter",
+        imageUrl: "https://res.klook.com/image/upload/Mobile/City/xuyvqatzegyg4xpbsnti.jpg",
+        country: "Spain",
+        city: "Madrid",
         _createdOn: 1617194210928,
       },
-      "1840a313-225c-416a-817a-9954d4609f7c": {
-        _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://www.remax.eu/uploads/agent-1/Greece%20(Optimized)-5e580fa45d9f1.jpg",
-        Contry: "Greece",
-        City: "Santorini",
-        _createdOn: 1617194210928,
-      },
-      "126777f5-3277-42ad-b874-76d043b069cb": {
-        _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://images.prismic.io/mystique/24d6af7e-53ba-47c4-baef-da7de5b49130_86c7e78d-48e2-4414-9c99-60c5ca83c906-13944-cairo-skip-the-line-tickets---pyramids-of-giza-01.webp?auto=compress,format",
-        Country: "Egypt",
-        City: "Giza",
-        _createdOn: 1617194210928,
-      },
-      "136777f5-3277-42ad-b874-76d043b069cb": {
-        _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://www.touristicroutes.com/imagens/destinos/ar/large/IMGD3-64-5803-mar_del_plata.jpg",
-        Country: "Argentina",
-        City: "Mar del Plata",
-        _createdOn: 1617194210928,
-      },
-      "1840a313-225c-416a-817a-9954d4609f7c": {
-        _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://media.timeout.com/images/105482246/image.jpg",
-        Contry: "Brazil",
-        City: "Rio de Janeiro",
-        _createdOn: 1617194210928,
-      },
-      "126777f5-3277-42ad-b874-76d043b069cb": {
-        _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/be/KeizersgrachtReguliersgrachtAmsterdam.jpg",
-        Country: "The Netherlands ",
-        City: "Amsterdam",
-        _createdOn: 1617194210928,
-      },
-      "136777f5-3277-42ad-b874-76d043b069cb": {
-        _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-        imageUrl: "https://d1bvpoagx8hqbg.cloudfront.net/originals/experience-tokyo-japan-reina-098513b84c191a928951f4d006ef5edc.jpg",
-        Country: "Japan",
-        City: "Tokyo",
-        _createdOn: 1617194210928,
-      }
     },
     favourites: {},
   };

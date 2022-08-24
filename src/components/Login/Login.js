@@ -1,7 +1,40 @@
+import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+
+import { AuthContext } from "../../context/AuthContext.js";
+import * as authService from '../services/authService.js';
+
 export const Login = () => {
+    const { loginUser } = useContext(AuthContext);
+
+    const navigate = useNavigate();
+
+    const loginHandler = (e) => {
+        e.preventDefault();
+
+        let formData = new FormData(e.currentTarget);
+
+        const username = formData.get('username');
+        const password = formData.get('password');
+
+        if (username == '' || password == '') {
+            return alert('All fields must be filled!');
+        }
+
+        authService.login(username, password)
+            .then(user => {
+                if (user.accessToken) {
+                    loginUser(user);
+                    navigate('/');
+                } else {
+                    return alert('Login or password don\'t match!')
+                }
+            })
+    };
+
     return (
         <div className="login-container">
-            <form>
+            <form onSubmit={loginHandler}>
                 <input
                     type="text"
                     name="username"

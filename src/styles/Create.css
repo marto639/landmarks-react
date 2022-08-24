@@ -41,14 +41,22 @@
   margin: 20px 22%;
   top: 10px;
 }
+.create-page-user {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  margin: 20px 22%;
+  top: 10px;
+}
 .post-picture {
   position: relative;
   background-color: transparent;
   color: white;
   border: none;
   font-size: 30px;
-  left: 30%;
-  top: 50px;
+  left: 29%;
+  top: 20px;
   cursor: pointer;
 }
 

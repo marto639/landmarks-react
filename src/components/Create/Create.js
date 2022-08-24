@@ -5,6 +5,12 @@ export const Create = () => {
                 <form>
                     <input
                         type="text"
+                        name="user"
+                        className="create-page-user"
+                        placeholder="Username"
+                    />
+                    <input
+                        type="text"
                         name="imageUrl"
                         className="create-page-image"
                         placeholder="Image"
