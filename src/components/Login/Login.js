@@ -29,7 +29,7 @@ export const Login = () => {
                     alt="beautiful-picture"
                     className="third-login-beautiful-pic"
                 />
-                <input type="submit" defaultValue="Login" className="login-submit-button" />
+                <input type="submit" value="Login" className="login-submit-button" />
             </form>
         </div>
     );

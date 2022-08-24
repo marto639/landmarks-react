@@ -1,0 +1,44 @@
+.register-container {
+  width: 450px;
+  height: 480px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  border-color: aqua;
+  margin: 20px auto;
+  box-shadow: 0 0 30px whitesmoke;
+}
+.register-username {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  left: 24%;
+  top: 90px;
+}
+.register-password {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  left: 24%;
+  top: 120px;
+}
+.register-rePassword {
+  position: relative;
+  border-radius: 15px;
+  height: 30px;
+  width: 230px;
+  left: 24%;
+  top: 150px;
+}
+.register-submit-button {
+  position: relative;
+  right: 19%;
+  top: 240px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
