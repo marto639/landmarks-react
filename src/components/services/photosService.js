@@ -18,5 +18,6 @@ export const postPicture = (accessToken, user, imageUrl, country, city, details)
 };
 
 export const getOne = (id) => {
-
+    return fetch(`${url}/${id}`)
+        .then(res => res.json());
 };

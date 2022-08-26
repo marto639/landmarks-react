@@ -1445,6 +1445,7 @@
         imageUrl: "https://media.worldnomads.com/Explore/middle-east/hagia-sophia-church-istanbul-turkey-gettyimages-skaman306.jpg",
         country: "Turkey",
         city: "Istanbul",
+        details: "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here. In the Sultanahmet district, the open-air, Roman-era Hippodrome was for centuries the site of chariot races, and Egyptian obelisks also remain.",
         _createdOn: 1617194210928,
       },
       "126777f5-3277-42ad-b874-76d043b069cb": {
@@ -1453,6 +1454,7 @@
         imageUrl: "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/sofia-1.jpg",
         country: "Bulgaria",
         city: "Sofia",
+        details: "Sofia is the capital of the Balkan nation of Bulgaria. It's in the west of the country, below Vitosha Mountain. The city's landmarks reflect more than 2,000 years of history, including Greek, Roman, Ottoman and Soviet occupation. Medieval Boyana Church has 13th-century frescoes.",
         _createdOn: 1617194210928,
       },
       "136777f5-3277-42ad-b874-76d043b069cb": {
@@ -1461,6 +1463,7 @@
         imageUrl: "https://res.klook.com/image/upload/Mobile/City/xuyvqatzegyg4xpbsnti.jpg",
         country: "Spain",
         city: "Madrid",
+        details: "Madrid, Spain's central capital, is a city of elegant boulevards and expansive, manicured parks such as the Buen Retiro. It's renowned for its rich repositories of European art, including the Prado Museum's works by Goya, Velázquez and other Spanish masters. The heart of old Hapsburg Madrid is the portico-lined Plaza Mayor, and nearby is the baroque Royal Palace and Armory, displaying historic weaponry.",
         _createdOn: 1617194210928,
       },
     },

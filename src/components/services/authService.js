@@ -25,7 +25,7 @@ export const register = (username, password) => {
 export const logout = (accessToken) => {
     return fetch(`${url}/logout`, {
         headers: {
-            'X-Authorization': 'application/json'
+            'X-Authorization': accessToken
         }
     })
 };
