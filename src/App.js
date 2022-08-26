@@ -8,6 +8,7 @@ import { Register } from './components/Register/Register.js';
 import { Create } from './components/Create/Create.js';
 import { Logout } from './components/Logout/Logout.js';
 import { Details } from './components/Details/Details.js';
+import { Info } from './components/Info/Info.js';
 
 import { AuthContext } from './context/AuthContext.js';
 
@@ -36,6 +37,7 @@ function App() {
                     <Route path="/create" element={<Create />} />
                     <Route path="/logout" element={<Logout />} />
                     <Route path="/details/:id" element={<Details />} />
+                    <Route path="/info" element={<Info />} />
                 </Routes>
             </div>
         </AuthContext.Provider>
