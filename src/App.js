@@ -6,6 +6,7 @@ import { Home } from './components/Home/Home.js';
 import { Login } from './components/Login/Login.js';
 import { Register } from './components/Register/Register.js';
 import { Create } from './components/Create/Create.js';
+import { Logout } from './components/Logout/Logout.js';
 
 import { AuthContext } from './context/AuthContext.js';
 
@@ -18,8 +19,12 @@ function App() {
         setUser(data);
     }
 
+    const logoutUser = () => {
+        setUser({});
+    }
+
     return (
-        <AuthContext.Provider value={{ user, loginUser }}>
+        <AuthContext.Provider value={{ user, loginUser, logoutUser }}>
             <div className="App">
                 <Navigation />
 
@@ -28,6 +33,7 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/create" element={<Create />} />
+                    <Route path="/logout" element={<Logout />} />
                 </Routes>
             </div>
         </AuthContext.Provider>

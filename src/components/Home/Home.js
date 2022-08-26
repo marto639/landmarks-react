@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { HomeController } from './HomeController/HomeController.js';
+
+import { HomeComponent } from './HomeController/HomeComponent.js';
 
 import * as photosService from '../services/photosService';
 
@@ -24,7 +25,7 @@ export const Home = () => {
             </div>
 
             <div>
-                {photos.map(x => <HomeController key={x._id} photos={x} />)}
+                {photos.map(x => <HomeComponent key={x._id} photos={x} />)}
             </div>
         </>
     );

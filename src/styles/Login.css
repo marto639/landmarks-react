@@ -26,14 +26,19 @@
 }
 .login-submit-button {
   position: relative;
-  border: none;
+  border-style: solid;
+  border-radius: 15px;
   color: white;
-  left: 169px;
+  left: 153px;
   bottom: 270px;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
   background-color: transparent;
 }
+.login-submit-button:hover {
+  box-shadow: 0 0 50px blue;
+}
+
 /* Images  */
 .first-login-beautiful-picture {
   position: relative;

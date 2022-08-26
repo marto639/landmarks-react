@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import { AuthContext } from '../../context/AuthContext.js';
@@ -6,21 +6,9 @@ import { AuthContext } from '../../context/AuthContext.js';
 export const Navigation = () => {
     const { user } = useContext(AuthContext);
 
-    useEffect(() => {
-
-    }, []);
-
-    const visualChange = (e) => {
-        if (e.target == 'visual-change') {
-            e.target.classList.add('visual-change');
-        } else {
-            e.target.classList.remove('visual-change');
-        }
-    };
-
     return (
         <div className="navigation-box">
-            <Link className="navigation-links home-navigation" to="/" onClick={visualChange}>Home</Link>
+            <Link className="navigation-links home-navigation" to="/">Home</Link>
             {user.accessToken
                 ?
                 <>

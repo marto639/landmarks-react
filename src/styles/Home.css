@@ -57,7 +57,8 @@
   width: 0px;
   right: 23%;
   top: 270px;
-  border: none;
+  text-decoration: none;
+  color: #1c1e26;
   background-color: transparent;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
