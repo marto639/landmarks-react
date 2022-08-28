@@ -32,7 +32,7 @@ export const Edit = (e) => {
         }
 
         photoService.editPhoto(id, user.accessToken, imageUrl, country, city, details)
-            .then(result => {
+            .then(() => {
                 navigate(`/details/${id}`)
             });
     };

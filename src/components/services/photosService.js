@@ -33,3 +33,12 @@ export const editPhoto = (id, accessToken, imageUrl, country, city, details) => 
     })
         .then(res => res.json());
 };
+
+export const deletePhoto = (id, accessToken) => {
+    return fetch(`${url}/${id}`, {
+        method: 'DELETE',
+        headers: {
+            'X-Authorization': accessToken
+        }
+    })
+};
