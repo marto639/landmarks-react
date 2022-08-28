@@ -1,12 +1,14 @@
 import { useParams } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import * as photoService from '../services/photosService.js';
+import { AuthContext } from '../../context/AuthContext.js';
 
 export const Details = () => {
     const { id } = useParams();
     const [photo, setPhoto] = useState([]);
+    const { user } = useContext(AuthContext);
 
     useEffect(() => {
         photoService.getOne(id)
@@ -23,8 +25,15 @@ export const Details = () => {
                     alt="Beautiful image"
                     className="details-image"
                 />
-                <Link className='edit' to={`/edit/${id}`}>Edit</Link>
-                <Link className='delete' to="/delete">Delete</Link>
+                {user._id == photo._ownerId
+                    ?
+                    <>
+                        <Link className='edit' to={`/edit/${id}`}>Edit</Link>
+                        <Link className='delete' to="/delete">Delete</Link>
+                    </>
+                    : ''
+                }
+
 
                 <h3 className="country-name">
                     Country: {photo.country}

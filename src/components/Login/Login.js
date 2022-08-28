@@ -24,6 +24,7 @@ export const Login = () => {
         authService.login(username, password)
             .then(user => {
                 if (user.accessToken) {
+                    console.log(user)
                     loginUser(user);
                     navigate('/');
                 } else {

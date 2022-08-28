@@ -1,0 +1,58 @@
+.edit-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  top: 10px;
+  background-color: gray;
+  border-radius: 100%;
+}
+.edit-image {
+  position: relative;
+  border-radius: 15px;
+  top: 10%;
+  left: 29%;
+  width: 200px;
+  height: 23px;
+  border-style: double;
+}
+.edit-country {
+  position: relative;
+  border-radius: 15px;
+  top: 20%;
+  right: 13%;
+  width: 200px;
+  height: 23px;
+  border-style: double;
+}
+.edit-city {
+  position: relative;
+  border-radius: 15px;
+  top: 24%;
+  left: 29%;
+  width: 200px;
+  height: 23px;
+  border-style: double;
+}
+.edit-details {
+  position: relative;
+  border-radius: 15px;
+  top: 34%;
+  right: 13%;
+  width: 200px;
+  height: 23px;
+  border-style: double;
+}
+.edit-button {
+  position: relative;
+  top: 43%;
+  left: 36%;
+  border-radius: 100px 70px 90px;
+  height: 23px;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}

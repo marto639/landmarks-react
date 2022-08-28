@@ -9,6 +9,7 @@ import { Create } from './components/Create/Create.js';
 import { Logout } from './components/Logout/Logout.js';
 import { Details } from './components/Details/Details.js';
 import { Info } from './components/Info/Info.js';
+import { Edit } from './components/Edit/Edit.js';
 
 import { AuthContext } from './context/AuthContext.js';
 
@@ -37,6 +38,7 @@ function App() {
                     <Route path="/create" element={<Create />} />
                     <Route path="/logout" element={<Logout />} />
                     <Route path="/details/:id" element={<Details />} />
+                    <Route path="/edit/:id" element={<Edit />} />
                     <Route path="/info" element={<Info />} />
                 </Routes>
             </div>
