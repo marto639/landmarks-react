@@ -1,12 +1,13 @@
 body {
   width: 100%;
   height: auto;
-  background: #1c1e26 no-repeat center top;
+  /* #1c1e26 no-repeat center top */
+  background: blueviolet;
   box-sizing: border-box;
   overflow-x: hidden;
 }
 .navigation-box {
-  background-color: gray;
+  background-color: plum;
   width: 1200px;
   height: 100px;
   margin: 0 auto;
@@ -16,7 +17,8 @@ body {
   position: relative;
   top: 20px;
   text-decoration: none;
-  color: white;
+  /* #2a6592 */
+  color: #1d1d1d;
   font-size: 50px;
   margin: 90px;
 }

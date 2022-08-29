@@ -4,7 +4,7 @@
   margin-left: 6%;
   width: 400px;
   height: 400px;
-  margin-top: 0.7%;
+  margin-top: 3%;
 }
 .country-name {
   position: relative;
@@ -26,7 +26,7 @@
 }
 .detail-details {
   position: relative;
-  left: 36%;
+  left: 36.5%;
   width: 850px;
   bottom: 425px;
   color: #e2dfd2;
@@ -36,7 +36,7 @@
 .edit {
   border-radius: 20px 100px;
   position: absolute;
-  top: 85%;
+  top: 88%;
   left: 33%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -51,7 +51,7 @@
 .delete {
   border-radius: 100px 20px;
   position: absolute;
-  top: 85%;
+  top: 88%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;

@@ -13,7 +13,7 @@
   border-radius: 15px;
   left: 24%;
   height: 30px;
-  width: 230px;
+  width: 240px;
   top: 50px;
 }
 .password {
@@ -21,7 +21,7 @@
   border-radius: 15px;
   left: 24%;
   height: 30px;
-  width: 230px;
+  width: 240px;
   bottom: 100px;
 }
 .login-submit-button {
@@ -29,8 +29,8 @@
   border-style: solid;
   border-radius: 15px;
   color: white;
-  left: 153px;
-  bottom: 270px;
+  left: 163px;
+  bottom: 200px;
   font-size: 40px;
   cursor: pointer;
   background-color: transparent;

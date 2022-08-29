@@ -1,10 +1,13 @@
 .info-text {
   position: relative;
   display: block;
-  color: #b6b0af;
+  color: whitesmoke;
   width: 1200px;
   text-align: center;
   top: 30px;
   margin: auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.info-text div li {
+  margin: 30px;
 }
