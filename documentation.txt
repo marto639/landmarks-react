@@ -1,0 +1,41 @@
+I have used the softuni-practise-server which can be find in github
+
+To run the application:
+1. npm i
+2. add new terminal
+3. in first terminal type npm start
+4. in second terminal cd ".\server\"
+5. after going in the server folder type again in the second terminal node ".\server.js\"
+
+Login page information
+1. all fields must be filled or an error message will appear
+2. if the information in the feilds is not the same as in the server it will throw an error message
+3. there are created users in the server which are : 
+
+username: peter
+password : 123456
+
+username: john
+password: 123456
+
+4. The first 3 added pictures are from peter so he is able to edit and delete them
+5. after logging in you will be redirected to home page
+
+Register page information
+1. all fields must be filled or an error message will appear
+2. password must be the same as repeat password or error message will appear
+3. after registering the information is added in the server 
+4. if the server is restarted the created person will be deleted
+5. after registering you will be redirected to home page
+
+Details page
+1. everyone shoud be able to check the details of the page
+2. if the person has created the picture under the picture will appear 2 buttons delete and edit
+3. when picture is deleted it will redirect to home page and the picture will be deleted
+
+Edit page
+1. when te creator goes into edit page he will be provided with the information in the inputs so he can find the thing he wants to edit
+2. when the edit button is clicked the creator will be redirected to details page about the same picture
+
+Info page
+1. the info page gives small information for new users and giving them a way to text to my gmail to fix a found problem
